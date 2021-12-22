@@ -29,7 +29,7 @@ public class CommentService {
 	
 	UserKService userService; 
 	PostService postService;
-	@Autowired
+	
 	public CommentService(CommentRepository commentRepositroy, UserKService userService, PostService postService) {
 	
 		this.commentRepositroy = commentRepositroy;
